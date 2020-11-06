@@ -1,0 +1,40 @@
+.home-wrapper{
+  max-width: 1100px;
+  background: #ededed;
+  margin:0 auto;
+  .loading-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-grid{
+    .header-wrapper{
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 10px;
+
+
+    }
+    .pagination-wrapper{
+      margin: 20px 0;
+      text-align: center;
+
+
+    }
+    .home-pokemon-container{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .header-wrapper{
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 180px;
+  }
+}

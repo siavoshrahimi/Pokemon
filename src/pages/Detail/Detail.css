@@ -1,0 +1,48 @@
+.wrapper {
+  margin-top: 50px;
+}
+.wrapper .container {
+  width: 290px;
+  margin: 0 auto;
+  border: 1px solid #a1a1a1;
+  box-shadow: 1px 2px #808080;
+  background: #fdfcf9;
+  padding: 10px;
+}
+.wrapper .container .close {
+  display: flex;
+  justify-content: flex-end;
+}
+.wrapper .container .close span {
+  font-size: 25px;
+  font-weight: 900;
+  padding: 5px;
+  cursor: pointer;
+}
+.wrapper .container .img-wrapper {
+  text-align: center;
+}
+.wrapper .container .title {
+  text-align: center;
+  color: #595959;
+}
+.wrapper .container .title h3:first-letter {
+  text-transform: capitalize;
+}
+.wrapper .container .detail {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.wrapper .container .detail .detail-section {
+  margin: 5px 0;
+}
+.wrapper .container .detail .detail-section li {
+  color: #595959;
+  padding-left: 15px;
+}
+.wrapper .container .detail .detail-section strong, .wrapper .container .detail .detail-section span {
+  color: #595959;
+}
+
+/*# sourceMappingURL=Detail.css.map */
